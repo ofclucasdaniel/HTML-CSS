@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping de tags</title>
+    <style>
+        body{
+            background-color: beige;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        h1 {
+            text-align: center;
+            font-style: normal;
+        }
+        nav{
+            background-color: black;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.326);
+            
+            
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            margin-right: 30px;
+            
+
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            background-color: #009dff;
+            padding: 10px; 
+            box-shadow: 2px 2px 4px 1px rgb(0, 0, 0); 
+        }
+
+
+        
+        footer{
+            background-color: #000000;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            padding: 1px;
+            font-size: 13px;
+            text-decoration: underline;
+        }
+
+        article {
+            background-color: azure;
+            padding: 5px;
+
+        }
+        h2{
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+            
+        }
+        .rodape {
+            text-align: center;
+            padding: 5px;
+            
+        }
+        .Selecao {
+            text-align: center;
+        font-size: 15px;
+        text-decoration: underline;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        #assuntos {
+            background-color: aquamarine;
+            padding: 2px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 3px 5px 2px rgba(0, 0, 0, 0.267);
+        }
+        #teste{
+            color: white;
+        }
+        a{
+            color: 
+            white;
+        }
+        div>a {
+            text-align: left;
+            
+        }
+        div>a>p{
+            display: none;
+        }
+        div:hover>a {
+            text-align: left;
+            
+            
+        }
+        div:hover>a>p {
+            display: block;
+            color: rgb(0, 0, 0);
+            padding: 5px 5px 5px;
+            margin-bottom: 30px;background-color: white;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Meu site</h1>
+       <nav>
+        <div><a class="link01" href="#">Inicio, <p> teste</p> </a>
+        <a class="link02" href="#">Blog</a>
+        <a class="link03" href="#">Noticias</a>
+        <a class="link04"href="#">Sobre Nós</a>
+        <a class="link05"href="#">Conteúdo</a>
+    </div>
+
+        
+       </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p class="Selecao"> Esportes Política Tecnologia</p> </section>
+            <section id="noticias">
+                <p> inteligencia artificial receitas</p>
+                <article>
+                    <h2>Noticias sobre o brasil</h2> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis earum architecto enim perspiciatis aspernatur. Earum, quam aut! Cumque a voluptate eligendi quis corrupti deleniti laboriosam saepe earum! Explicabo, hic suscipit.</p>
+                <aside>
+                    <p>Artigo escrito por josé da silva</p>
+                </aside>
+             </article>
+
+            </section>
+    </main>
+    <footer>
+        <p class="rodape"> Site desenvolvido & Lucas Daniel</p>
+    </footer>
+    
+</body>
+</html>

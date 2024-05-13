@@ -1,0 +1,151 @@
+            @font-face {
+            font-family: "Love" ; src:url('arquivos/fontes/idroid.otf')format(opentype)
+    
+        }
+        body{
+            background-color: rgb(0, 255, 170);
+            margin: 0px;
+        }
+        header{
+            
+            background-image: linear-gradient(to bottom, #8dffcd, #2d5343);
+            padding: 30px 60px 10px 60px;
+            margin: 0px; 
+        }
+        footer {
+            background-color: #00512f;
+            color: white;
+            
+
+        }
+        footer > p {
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white
+        }
+        p {
+            text-align: justify;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+        a{
+            color: white;
+            padding-right: 15px;
+        }
+
+        main {
+            padding: 10px;
+
+        }
+        article{
+            background-color: white;
+            border-radius: 0px 0px 10px 10px ;
+            padding: 10px;
+            margin: 0px;
+            
+        }
+        #fonth1{
+            font-family: "Love", Times, serif;
+            font-size: 28px;
+            font-weight: normal;
+            font-style: normal;
+            text-align: center;
+            color: black;
+
+        }
+        h2{
+            font-family: 'Love';
+            font-size: 20px;
+        
+            background-image: linear-gradient(to left, #8dffce00, #2d534370);
+            color: #00512f;
+            padding: 3px;
+            
+        }
+        .p01 {
+            text-align: center;
+        
+        }
+
+        .img01 {
+            /* imagem centralizada*/
+    display: flex;
+    justify-content: center;
+        }
+        .img02 {
+            display: flex;
+    justify-content: center;
+        }
+        .img03{
+            display: flex;
+    justify-content: center;
+        }
+        .video01 {
+            display: flex;
+    justify-content: center;
+    background-color: #00512f;
+    padding: 10px 30px 30px 30px ;
+    
+    
+
+
+        }
+
+        .conte02 {
+            background-color:#1ae49059;
+            padding: 0px;
+            margin: 5px;
+            border-radius: 10px ;
+           
+            
+        }
+
+        h3 {
+            background-color: #0f432daf;
+            color: white;
+            padding: 10px;
+            margin: 0px;
+            border-radius: 10px 10px 0px 0px;
+        }
+        
+        article > p > a {
+            color: #003821;
+            text-align: center;
+            padding: 5px;
+        }
+
+        .inicio:hover {
+            display: inline-block;
+            background-color: aliceblue;
+            color: black;
+            padding: 5px;
+        }
+
+        .noticias:hover {
+            display: inline-block;
+            background-color: aliceblue;
+            color: black;
+            padding: 5px;
+        }
+
+        .curiosidades:hover {
+            display: inline-block;
+            background-color: aliceblue;
+            color: black;
+            padding: 5px;
+        }
+
+        .faleconosco:hover {
+            display: inline-block;
+            background-color: aliceblue;
+            color: black;
+            padding: 5px;
+        }
+
+
+
